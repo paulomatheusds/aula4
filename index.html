@@ -2,32 +2,39 @@
 <html lang="pt-br">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeira Aula HTML</title>
     <style>
-        div{
-            background-color: rgb(44, 7, 100); 
+        div {
+            background-color: rgb(44, 7, 100);
         }
-        ul{
+
+        ul {
             display: inline-block;
-            padding-left: 20px;
+            padding-left: 0%;
+            vertical-align: top;
+            margin-top: 30px;
         }
-        li{
+
+        li {
             display: inline-block;
-            
-        }
-        a{
-            
-            color: yellow;
             padding: 5px;
+        }
+
+        a {
+            color: rgb(255, 106, 6);
+            padding: 10px;
             text-decoration: none;
             font-weight: bold;
-            
         }
-        h1{
-            display: inline-block;
-            color: white;
-            margin-left: 10px;
-            
+        a:hover{
+            background-color: rgba(21, 21, 5, 0.249);
+            color: blanchedalmond;
+        }
+
+        img {
+            padding: 10px;
         }
     </style>
 
@@ -35,12 +42,13 @@
 
 <body>
     <div>
-        <h1>Loja.com</h1>
+        <img src="store.png">
         <ul>
             <li><a href="">Roupas</a></li>
             <li><a href="">Acessórios</a></li>
             <li><a href="">Eletrônicos</a></li>
         </ul>
+        <img src="login.png" height="50px" width="50px" style="float: right; margin-top: 8px;">
     </div>
 
 </body>
