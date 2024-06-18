@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        form{
+            padding: 10px;
+            background-color: rgb(39, 39, 113);
+            width: 300px;
+            margin: auto; /* o margim auto só funciona em elementos de bloco, esse form é automaticamente em block */
+            border-radius: 10px;
+            text-align: center;
+        }
+        input{
+            display: block;
+            width: 100%;
+            margin: 5px 0 10px 0;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+        label{
+            color: white;
+            margin: 5px 0 10px 0;
+        }
+        button{
+            border: none;
+            background-color: gray;
+            color: white;
+            padding: 6px 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://www.google.com/search" method="get">
+        <label for="">Geraçãp Search</label>
+        <input type="text" name="q"> <!-- o 'q' é por onde se faz as pesquisas do google exeplo: https://www.google.com/search?q=coment%C3%A1rio+html&rlz=1C1GCEU_pt-BRBR1115BR1115&oq=coment%C3%A1rio+htm&gs_lcrp=EgZjaHJ --> 
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
